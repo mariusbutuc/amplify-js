@@ -682,7 +682,7 @@ jobs:
       - integ_test_node_js:
           test_name: 'amazon-cognito-identity-js cookie storage'
           category: auth
-          sample_name: amazon-cognito-identity-js-cookie-storage
+          sample_name: amazon-cognito-identity-js
 
   integ_rn_ios_storage:
     executor: macos-executor
@@ -1013,6 +1013,7 @@ workflows:
       #       - integ_angular_interactions
       #       - integ_vue_interactions
       #       - integ_react_amazon_cognito_identity_js
+      #       - integ_react_amazon_cognito_identity_js_cookie_storage
       #       - integ_node_amazon_cognito_identity_js
       #       - integ_react_auth
       #       - integ_angular_auth
